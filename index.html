@@ -1,0 +1,35 @@
+<!doctype html>
+<!--文档类型，这是必不可少的开头-->
+<html lang="en-US">
+<!--写明了页面的主要语种-->
+<head>
+  <link href="styles/style.css" rel="stylesheet" />
+<meta charset="utf-8"/>
+<!--<meta charset="utf-8"> 声明了文档使用UTF-8字符编码。UTF-8是一种广泛使用的编码，支持几乎所有语言的字符，包括英文字符、中文字符、特殊符号等。-->
+<meta name="viewport" content="width=device width"/>
+<!--这个<meta>标签用于控制页面的视口（viewport）设置，即页面在移动设备上的显示方式。
+content="width=device-width" 告诉浏览器页面的宽度应该与设备的屏幕宽度相匹配，以便更好地在移动设备上展示页面。-->
+<title>My test page </title>
+<!--<title> 标签定义了网页的标题，这个标题会显示在浏览器标签页上。在这个例子中，标题是“My test page”。-->
+  <link
+  href="https://fonts.googleapis.com/css?family=Open+Sans"
+  rel="stylesheet" />
+</head>
+<body>
+<!--<body> 标签开始了页面的主体部分，即用户将在网页浏览器中看到的内容。-->
+<h1>我的桌面</h1>
+<img src="images/example.jpg" alt="My test image" style="width:100%;" />
+<p>没错，你看到的就是我做的第一个网页的升级版</p>
+<ul>
+  <li>看着我的桌面你应该就不犯困了</li>
+  <li>如果还犯困的话就站一会儿</li>
+  <li>如果都不行的话我就给你点一杯咖啡吧</li>
+</ul>
+<p>点咖啡的话请给我发送邮件<a href="mailto:2779216142@qq.com">发送邮件给2779216142@qq.com</a></p>
+<p>如果你也想和我一样做出这么大伟大的网页，请点击<a href="https://developer.mozilla.org/zh-CN/docs/Learn/Getting_started_with_the_web">史上最伟大的网页</a></p>
+<!--<img> 标签用于在HTML页面中嵌入图像。src="images/example.jpg" 属性指定了图像文件的路径和文件名，这里假设在网站的images文件夹中有一个名为example.jpg的图像文件。
+alt="My test image" 属性提供了图像的替代文本，如果由于某种原因图像无法显示（例如，图像文件丢失或浏览器不支持图像显示），则替代文本会显示在页面上。-->
+<button>切换用户</button>
+<script src="scripts/main.js" defer></script>
+</body>
+</html>
